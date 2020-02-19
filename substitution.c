@@ -42,7 +42,7 @@ int main(int argc, string argv[])
 	    return 1;
 	}
 	int n2 = strlen(text);
-	char cypher[n2 - 2];
+	char cypher[n2];
     for (int i = 0; i < n2 ; i++)
 	{
 	    if (text[i] <= 90 && text[i] >= 65)
